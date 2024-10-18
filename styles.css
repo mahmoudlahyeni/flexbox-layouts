@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+   
+   
+    
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+nav ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+
+}
+nav ul li {
+    
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li:last-child {
+    margin-right: 0;          /* Remove margin from last item */
+}
+
+main {
+    
+    min-height: calc(100vh - 80px); /* Adjust for header and footer height */
+    
+}
+
+h1{
+   
+    text-align: center;
+    width: auto;
+}
+
+
+
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    
+    color: #f51010; /* Change text color on hover */
+}
+
+nav ul li a:active {
+    
+    color: #23c75f; /* Active text color */
+    
+}
+
+
+.clicked{
+    color: purple; /* Change color for visited links */
+}
+.float-left {
+    float: left;
+    margin-right: 15px;
+    
+}
+.float-right {
+    float: right;
+    margin-left: 15px;
+   
+}
+
+.block {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    
+    flex-wrap: wrap; 
+}
+.First-block{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    display: flex;
+
+}
+
+.images{
+display: flex;
+
+justify-content: center;
+}
+
+#img1{
+    height: auto;
+    width: 200px;
+}
+#nav2{
+justify-content: center;
+}
+
+.flexbox1 {
+    display: flex; /* Enable Flexbox */
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin: 5px;
+}
+
+.flexbox2 {
+    border: 1px solid #cccccc;
+    flex: 1; /* This will take 1 part */
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 10px; /* Space between items */
+    padding: 10px; /* Optional padding around the container */
+    background-color: #f9f9f9; /* Light background */
+    
+}
+.flexbox-item {
+    background-color: #e0f7fa; /* Light blue background for items */
+    padding: 10px; /* Padding inside items */
+    border: 1px solid #ccc; /* Border around items */
+    border-radius: 4px; /* Rounded corners */
+    flex: 1 0 200px; /* Allow items to grow and set a base width */
+    text-align: center; /* Center text */
+}
+.flexbox3 {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    flex: 3; /* This will take 3 parts */
+    background-color: lightcoral; /* Optional: for visual reference */
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin: 5px;
+    gap: 10px; 
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
